@@ -1,0 +1,39 @@
+{
+  "feature_order": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "ca",
+    "sex",
+    "fbs",
+    "exang",
+    "cp",
+    "restecg",
+    "slope",
+    "thal"
+  ],
+  "numeric_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "ca"
+  ],
+  "binary_features": [
+    "sex",
+    "fbs",
+    "exang"
+  ],
+  "categorical_features": [
+    "cp",
+    "restecg",
+    "slope",
+    "thal"
+  ],
+  "target": "target",
+  "selected_model": "Decision Tree",
+  "random_state": 42
+}
